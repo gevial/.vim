@@ -28,6 +28,3 @@ let g:syntastic_python_checkers = ['python', 'pep8']
 au FileType python set omnifunc=pythoncomplete#Complete
 let g:SuperTabDefaultCompletionType = "context"
 set completeopt=menuone,longest,preview
-
-set t_Co=256
-colorscheme PaperColor-Dark
