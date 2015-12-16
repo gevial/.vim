@@ -9,6 +9,8 @@ set foldlevel=99
 autocmd BufEnter *.py set ai sw=4 ts=4 sta et fo=croql
 autocmd BufEnter *.pp set ai sw=2 ts=2 sta et fo=croql
 
+set pastetoggle=<F10>
+
 map <leader>td <Plug>TaskList
 map <leader>g :GundoToggle<CR>
 map <leader>n :NERDTreeToggle<CR>
